@@ -1,0 +1,297 @@
+.container{
+
+background-color: #e0e0e0;
+border-radius: 20px;
+margin: 12px;
+min-height: 30rem;
+}
+.backbag{
+
+display: flex;
+flex-direction:row-reverse ;
+justify-content: space-around;
+align-items: center;
+
+
+}
+img{
+    width: 40%;
+
+    object-fit: cover;
+    border-radius: 20%;
+    padding: 2%;
+}
+
+.price{
+display: flex;
+justify-content: space-evenly;
+}
+.numbers{
+
+border: 1px solid black;
+border-radius:10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 100%;
+}
+.price1{
+
+    display: flex;
+    justify-content: space-evenly;
+    gap: 1rem;
+}
+span{
+color: #F2994A;
+font-weight: 700;
+
+
+}
+.numbers1{
+
+border: 1px solid black;
+border-radius:10px;
+display: flex;
+justify-content: space-around;
+align-items: center;
+width: 8rem;
+}
+.icon{
+width: 2rem;
+fill: #e0e0e0;
+}
+hr{
+
+    width: 80%;
+}
+.shipping{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7rem;
+}
+.shipping p{
+font-weight: 700;
+}
+.total{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 7rem;
+}
+.total p{
+    font-weight: 700;   
+}
+.input{
+
+    display:flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#email{
+
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    background-image: url(/wired-outline-177-envelope-mail-send.gif);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+
+    
+}
+#phone{
+
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    background-image: url(/system-solid-58-call-phone.gif);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+    
+}
+#name1{
+
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    background-image: url(/wired-outline-21-avatar.gif);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+
+}
+#adress{
+
+
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    background-image: url(/wired-outline-63-home.gif);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+}
+#city{
+
+    padding: 3%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    background-image: url(/wired-outline-2022-krakow-city.gif);
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 5px;
+
+}
+#country{
+
+    padding: 12%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0;
+    
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 10px;
+
+}
+#postal{
+
+    padding: 7%;
+    border-radius: 10px;
+    border: 2px solid #e0e0e0; 
+    background-size: 25px;
+    background-repeat: no-repeat;
+    padding-top: 11px;
+   width: 7.5rem;
+}
+
+.adresse{
+position: absolute;
+display: flex;
+flex-direction: row;
+left: 50%;
+transform: translate(-50%);
+gap: 3rem;
+top: 1170px;
+align-items: center;
+width: 100%;
+margin-left: 3%;
+}
+
+.checkbox{
+display: flex;
+flex-direction: row;
+position: absolute;
+top: 1240px;
+}
+.button{
+
+border: 1px solid  #F2994A;
+background-color: #F2994A;
+width: 10rem;
+border-radius: 15px;
+position: relative;
+top: 150px;
+left: 45%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.button p{
+color: white;
+font-weight: 600;
+}
+@media only screen and (min-width:768px){
+
+.adresse{
+
+    position: absolute;
+    display: flex;
+    flex-direction: row;
+    left: 50%;
+    transform: translate(-50%);
+    gap: 3rem;
+    top: 1570px;
+    align-items: center;
+    width: 100%;
+    margin-left: 3%;
+
+}
+.checkbox{
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    top: 1640px;
+    left: 2%;
+    }
+    .button{
+
+        border: 1px solid  #F2994A;
+background-color: #F2994A;
+width: 13rem;
+border-radius: 15px;
+position: relative;
+top: 150px;
+left: 55%;
+display: flex;
+align-items: center;
+justify-content: center;
+    }
+    h2{
+
+        margin-left: 4%;
+    }
+
+
+}
+@media only screen and (min-width:1440px){
+    .container{
+
+        background-color: #e0e0e0;
+        border-radius: 20px;
+        margin: 12px;
+        min-height: 30rem;
+        width: 40%;
+      
+        }
+        main{
+            display: flex;
+            flex-direction: row-reverse;
+            justify-content: space-around;
+        }
+        .input{
+            width: 30%;
+        position: absolute;
+        top: 16%;
+        left: 6%;
+        }
+        .contact1{
+            position: absolute;
+            left: 6%;
+        }
+        .adresse{
+            position: absolute;
+            top: 110%;
+           
+        }
+        #country{
+width: 100%;
+
+        }
+        #postal{
+            width: 70%;
+        }
+        .checkbox{
+            position: absolute;
+            top: 95%;
+            left: 6%;
+        }
+.button{
+    position: absolute;
+    top: 100%;
+    left: 25%;
+}
+      
+}
