@@ -174,7 +174,7 @@ flex-direction: row;
 left: 50%;
 transform: translate(-50%);
 gap: 3rem;
-top: 1170px;
+top: 1200px;
 align-items: center;
 width: 100%;
 margin-left: 3%;
@@ -184,7 +184,7 @@ margin-left: 3%;
 display: flex;
 flex-direction: row;
 position: absolute;
-top: 1240px;
+top: 1270px;
 }
 .button{
 
@@ -193,7 +193,7 @@ background-color: #F2994A;
 width: 10rem;
 border-radius: 15px;
 position: relative;
-top: 150px;
+top: 170px;
 left: 45%;
 display: flex;
 align-items: center;
